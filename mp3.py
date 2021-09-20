@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+# Biblioteca para rodar o mp3
 import vlc
 
 def mp3():
