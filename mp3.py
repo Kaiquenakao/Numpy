@@ -15,6 +15,7 @@ janela = mp3()
 # Eventos do sistema
 while True:
     window, event, values = sg.read_all_windows()
+    # Evento para fechar o sistema
     if event == sg.WINDOW_CLOSED:
         break
 
