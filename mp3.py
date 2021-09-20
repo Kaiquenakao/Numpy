@@ -1,11 +1,11 @@
 import PySimpleGUI as sg
-# Biblioteca para rodar o mp3
 import vlc
 
 def mp3():
     sg.theme('Reddit')
-    # Definir o layout
     layout = [
+        [sg.Input(default_text='Insira o arquivo MP3: '), sg.FileBrowse('Seleciona', key='-IN-')],
+        [sg.Button('Tocar', key='tocar')]
     ]
     return sg.Window('MP3', layout, finalize=True)
 
@@ -18,4 +18,6 @@ while True:
     # Evento para fechar o sistema
     if event == sg.WINDOW_CLOSED:
         break
+    if event == 'tocar' and values['-IN-'] != "":
+        vlc.MediaPlayer(values['-IN-']).play()
 
