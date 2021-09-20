@@ -5,7 +5,7 @@ def mp3():
     sg.theme('Reddit')
     layout = [
         [sg.Input(default_text='Insira o arquivo MP3: '), sg.FileBrowse('Seleciona', key='-IN-')],
-        [sg.Button('Tocar', key='tocar')]
+        [sg.Button('Tocar', key='tocar')], [sg.Button('Parar', key='parar')],
     ]
     return sg.Window('MP3', layout, finalize=True)
 
