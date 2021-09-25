@@ -15,3 +15,10 @@ Após utilizar esse comando abrirá os arquivos e para executar os comandos que 
  1. Arrays_processamento_vetorizado.ipynb
  2. Funcoes_universais.ipynb
  3. Programacao_orientada.ipynb
+
+## Ferramentas
+<p float="left">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="70" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="70" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" width="100"/>
+</p>
